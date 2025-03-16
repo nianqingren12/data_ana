@@ -27,7 +27,7 @@ ax.tick_params(labelsize = 14)
 ax.axis([0,1100,0,1_100_000])
 
 #保存
-plt.savefig('squares_plot.jpg',bbox_inches = 'tight')
+#plt.savefig('squares_plot.jpg',bbox_inches = 'tight')
 
 #展示
 plt.show()
