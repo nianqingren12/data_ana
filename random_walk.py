@@ -2,7 +2,7 @@ from random import choice
 
 class RandomWalk:
     '''生成一个随机游走数据的类'''
-    def __init__(self,num_points = 5000):
+    def __init__(self,num_points = 2000):
         #所有随机游走数都始于（0，0）
         self.x_values = [0]
         self.y_values = [0]
